@@ -19,18 +19,10 @@ students.keys
 
 
 #5
-start = 5
+start = 0
 
+#6
 students.each do |key, value|
-  start *= value
-  puts start
-end
-
-
-def product(array)
-  final = 0.0
-  array.each do |i|
-    final *= i
-  end
-  return final
+  start = value * 0.05
+  puts value + start.to_i
 end
