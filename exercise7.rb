@@ -1,3 +1,4 @@
-def wrap_text(word, symbol
-  return symbol + word + symbol
+def wrap_text(word, unicorn)
+return unicorn+ word + unicorn
 end
+wrap_text("word", "+++")
